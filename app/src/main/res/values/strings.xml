@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Store Room</string>
+    <string name="title_data">data</string>
+    <string name="title_local">data:local</string>
 </resources>

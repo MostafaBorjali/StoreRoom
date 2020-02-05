@@ -9,18 +9,19 @@ android {
     dataBinding {
         enabled true
     }
+
 }
 
 dependencies {
     // COMMON
-   // implementation project(Modules.common)
+    implementation project(Modules.common)
     // DATA modules
-   // implementation project(Modules.local)
-    //implementation project(Modules.remote)
-   // implementation project(Modules.repository)
+    implementation project(Modules.local)
+    implementation project(Modules.remote)
+    implementation project(Modules.repository)
     // FEATURES modules
-   // implementation project(Modules.featureHome)
-   // implementation project(Modules.featureDetail)
+    // implementation project(Modules.featureHome)
+    // implementation project(Modules.featureDetail)
     // NAVIGATION
     implementation project(Modules.navigation)
     // KOIN
