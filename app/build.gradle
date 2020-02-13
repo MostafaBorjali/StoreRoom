@@ -20,15 +20,14 @@ dependencies {
     implementation project(Modules.remote)
     implementation project(Modules.repository)
     // FEATURES modules
-    // implementation project(Modules.featureHome)
-    // implementation project(Modules.featureDetail)
+     implementation project(Modules.featureHome)
+     implementation project(Modules.featureDetail)
     // NAVIGATION
     implementation project(Modules.navigation)
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel
     // ANDROID
-    implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.constraintLayout
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag

@@ -1,2 +1,2 @@
-include ':app', ':navigation', ':common', ':data:local', ':data:remote', ':data:model', ':data:repository', ':common_test'
+include ':app', ':navigation', ':common', ':data:local', ':data:remote', ':data:model', ':data:repository', ':common_test', ':features:detail', ':features:home'
 rootProject.name='Store Room'
