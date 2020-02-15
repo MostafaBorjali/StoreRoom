@@ -52,6 +52,7 @@ object Versions {
     val mockk = "1.9.2"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
+
 }
 
 object Libraries {
@@ -70,6 +71,8 @@ object Libraries {
     val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
     // GLIDE
     val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
+
+    val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 }
 
 object KotlinLibraries {

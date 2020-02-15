@@ -17,7 +17,7 @@ dependencies {
     // TEST MODULE
     //androidTestImplementation project(Modules.commonTest)
     // DATA MODULE
-    //implementation project(Modules.model)
+    implementation project(Modules.model)
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel

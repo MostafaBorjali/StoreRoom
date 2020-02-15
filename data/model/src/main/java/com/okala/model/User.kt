@@ -7,10 +7,10 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 @Entity
-data class User(
+data class User (
     @PrimaryKey
     @SerializedName("id")
-    val id:String,
+    val id: String,
 
     @SerializedName("login")
     val login: String,
@@ -25,8 +25,14 @@ data class User(
     val company: String?,
 
     @SerializedName("blog")
-    val blog: String?,var lastRefreshed: Date
-){
-    fun haveToRefreshFromNetwork() : Boolean =
-        TimeUnit.MILLISECONDS.toMinutes(Date().time - lastRefreshed.time) >= 10
+    val blog: String?,
+
+    var lastRefreshed: Date
+) {
+    /**
+     * We consider that an [User] is outdated when the last time
+     * we fetched it was more than 10 minutes
+     */
+    fun haveToRefreshFromNetwork() : Boolean
+            = TimeUnit.MILLISECONDS.toMinutes(Date().time - lastRefreshed.time) >= 10
 }

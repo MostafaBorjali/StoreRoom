@@ -10,6 +10,7 @@ dependencies {
     implementation KotlinLibraries.kotlinCoroutineCore
     implementation AndroidLibraries.kotlinCoroutineAndroid
     implementation AndroidLibraries.lifecycleExtensions
+    implementation Libraries.timber
     // KOIN
     implementation Libraries.koin
     implementation Libraries.koinViewModel
