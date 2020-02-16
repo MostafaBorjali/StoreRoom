@@ -21,5 +21,5 @@ class App : Application() {
         startKoin(this, provideComponent())
     }
 
-    open fun provideComponent() = appComponent
+    private fun provideComponent() = appComponent
 }
