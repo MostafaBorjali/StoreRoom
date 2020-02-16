@@ -1,8 +1,9 @@
-package io.philippeboisney.local.dao
+package com.okala.local.dao
 
 import androidx.room.Dao
 import androidx.room.Query
 import com.okala.model.User
+
 import java.util.*
 
 @Dao

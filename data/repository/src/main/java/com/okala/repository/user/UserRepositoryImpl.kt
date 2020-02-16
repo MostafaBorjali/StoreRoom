@@ -6,7 +6,7 @@ import com.okala.model.User
 import com.okala.remote.UserDatasource
 import com.okala.repository.utils.NetworkBoundResource
 import com.okala.repository.utils.Resource
-import io.philippeboisney.local.dao.UserDao
+import com.okala.local.dao.UserDao
 import kotlinx.coroutines.Deferred
 
 class UserRepositoryImpl(

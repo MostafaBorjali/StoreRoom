@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.okala.local.converter.Converters
 import com.okala.model.User
-import io.philippeboisney.local.dao.UserDao
+import com.okala.local.dao.UserDao
 
 
 @Database(entities = [User::class], version = 1, exportSchema = false)

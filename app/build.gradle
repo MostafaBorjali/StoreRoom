@@ -28,8 +28,10 @@ dependencies {
     implementation Libraries.koin
     implementation Libraries.koinViewModel
     implementation Libraries.timber
+    // LOG
+    implementation Libraries.Stetho
+    implementation Libraries.StethOkhttp
     // ANDROID
-    implementation AndroidLibraries.constraintLayout
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
 }

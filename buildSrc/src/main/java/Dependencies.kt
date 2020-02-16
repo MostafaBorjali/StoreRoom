@@ -1,5 +1,5 @@
 object ApplicationId {
-    val id = "io.philippeboisney.archapp"
+    val id = "Mostafa.Borjali"
 }
 
 object Modules {
@@ -52,6 +52,7 @@ object Versions {
     val mockk = "1.9.2"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
+    val stetho = "1.5.1"
 
 }
 
@@ -69,10 +70,13 @@ object Libraries {
     val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofitGson}"
     val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
+    val Stetho = "com.facebook.stetho:stetho:${Versions.stetho}"
+    val StethOkhttp = "com.facebook.stetho:stetho-okhttp3:${Versions.stetho}"
     // GLIDE
     val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
-
+    //Log
     val timber = "com.jakewharton.timber:timber:${Versions.timber}"
+
 }
 
 object KotlinLibraries {

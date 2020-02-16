@@ -1,4 +1,6 @@
-apply plugin: 'kotlin'
+
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
 
 dependencies {
     // KOTLIN
@@ -9,6 +11,8 @@ dependencies {
     implementation Libraries.retrofit
     implementation Libraries.retrofitGsonConverter
     implementation Libraries.httpLoggingInterceptor
+    implementation Libraries.Stetho
+    implementation Libraries.StethOkhttp
     // DATA MODULE
      implementation project(Modules.model)
     // KOIN

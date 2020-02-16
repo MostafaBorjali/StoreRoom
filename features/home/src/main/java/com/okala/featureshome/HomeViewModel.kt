@@ -25,15 +25,14 @@ class HomeViewModel(private val getTopUsersUseCase: GetTopUsersUseCase,
     private var usersSource: LiveData<Resource<List<User>>> = MutableLiveData()
 
     init {
-        getUsers(false)
+        getUsers(true)
     }
 
     // PUBLIC ACTIONS ---
 //    fun userClicksOnItem(user: User)
 //            = navigate(HomeFragmentDirections.actionHomeFragmentToDetailFragment(user.login))
 
-    fun userRefreshesItems()
-            = getUsers(true)
+    fun userRefreshesItems() = getUsers(true)
 
     // ---
 

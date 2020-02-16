@@ -1,4 +1,4 @@
-package io.philippeboisney.local.dao
+package com.okala.local.dao
 
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
